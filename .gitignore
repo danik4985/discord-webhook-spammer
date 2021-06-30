@@ -1,0 +1,9 @@
+# Folders
+node_modules/
+out/
+
+# Files that can be generated/found easily
+app.bundle.js
+
+# Private files
+config.yml

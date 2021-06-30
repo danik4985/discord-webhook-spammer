@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@types/node": "^15.12.5"
+  },
+  "scripts": {
+    "start": "tsc; node out/main.js config.yml",
+    "bundle": "tsc; esbuild out/main.js --bundle --outfile=app.bundle.js --platform=node"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "discord-webhook-node": "^1.1.8",
+    "yaml": "^1.10.2"
+  }
+}
